@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rogpeppe/go-internal/internal/textutil"
-	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/rogpeppe/testscript/internal/textutil"
+	"github.com/rogpeppe/testscript/txtar"
 )
 
 // scriptCmds are the script command implementations.

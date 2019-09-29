@@ -38,7 +38,7 @@ In general script files should have short names: a few words, not whole sentence
 The first word should be the general category of behavior being tested,
 often the name of a subcommand to be tested or a concept (vendor, pattern).
 
-Each script is a text archive (go doc github.com/rogpeppe/go-internal/txtar).
+Each script is a text archive (go doc github.com/rogpeppe/testscript//txtar).
 The script begins with an actual command script to run
 followed by the content of zero or more supporting files to
 create in the script's temporary file system before it starts executing.
@@ -170,7 +170,7 @@ The predefined commands are:
   Rewrite each file by replacing any leading ">" characters from
   each line. This enables a file to contain substrings that look like
   txtar file markers.
-  See also https://godoc.org/github.com/rogpeppe/go-internal/txtar#Unquote
+  See also https://godoc.org/github.com/rogpeppe/testscript//txtar#Unquote
 
 - rm file...
   Remove the listed files or directories.

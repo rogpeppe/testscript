@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rogpeppe/go-internal/imports"
-	"github.com/rogpeppe/go-internal/internal/os/execpath"
-	"github.com/rogpeppe/go-internal/par"
-	"github.com/rogpeppe/go-internal/testenv"
-	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/rogpeppe/testscript/internal/imports"
+	"github.com/rogpeppe/testscript/internal/os/execpath"
+	"github.com/rogpeppe/testscript/internal/par"
+	"github.com/rogpeppe/testscript/internal/testenv"
+	"github.com/rogpeppe/testscript/txtar"
 )
 
 var execCache par.Cache

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rogpeppe/go-internal/internal/textutil"
+	"github.com/rogpeppe/testscript/internal/textutil"
 )
 
 var diffTests = []struct {
